@@ -26,7 +26,7 @@ After it successfully download and push files execute
 $ sh start-server.sh
 ```
 
-When you hit Ctrl+C the serve will shutdown.
+When you hit Ctrl+C the server will be terminated.
 
 **Background mode**
 
