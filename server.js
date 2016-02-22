@@ -3,10 +3,11 @@ var app = express();
 
 app.use(function (req, res) {
 
-  res.redirect('http://192.168.16.251:8100/index.html');
+  res.redirect('http://'+process.argv[2]+'/index.html');
 
 });
 
-app.listen(8080, function () {
+app.listen(8122, function () {
   console.log('JXCORE proxy is running on port 8080.');
+  console.log('Your request will now redirect to - ' + process.argv[2]);
 });
