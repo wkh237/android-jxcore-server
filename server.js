@@ -3,11 +3,11 @@ var app = express();
 
 app.use(function (req, res) {
 
-  res.redirect('http://'+process.argv[2]+'/index.html');
+  res.redirect('http://www.google.com');
 
 });
 
-app.listen(8122, function () {
+app.listen(8080, function () {
   console.log('JXCORE proxy is running on port 8080.');
-  console.log('Your request will now redirect to - ' + process.argv[2]);
+  console.log('Your request will now redirect to - www.google.com');
 });

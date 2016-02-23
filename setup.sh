@@ -16,11 +16,10 @@ rm -rf $filename
 curl -O "https://jxcore.s3.amazonaws.com/0311/$filename.zip"
 
 # unzip jxcore binaries
-tar -xvf "./$filename.zip"
+unzip "./$filename.zip"
 rm "$filename.zip"
 
 # push binaries into device
-adb shell 'mkdir /data/local/tmp/jxcore-proxy'
 adb push ./ /data/local/tmp/jxcore-proxy/
 
 rm -rf $filename
