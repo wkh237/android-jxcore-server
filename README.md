@@ -1,6 +1,6 @@
 # android-jxcore-server
 
-This is an example which uses [JXcore](http://jxcore.com/home/) to start a [Express](https://github.com/expressjs/express) server on your Android device's 8080 port.
+This is an example which uses [JXcore](http://jxcore.com/home/) to start an [Express](https://github.com/expressjs/express) server on your Android device's 8080 port.
 
 # Usage
 
