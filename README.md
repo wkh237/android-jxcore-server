@@ -23,7 +23,7 @@ $ sh setup.sh arm
 After it successfully download and push files execute
 
 ```
-$ sh start-server.sh [ia32|arm] [Url you wish to redirect]
+$ sh start-server.sh [ia32|arm]
 ```
 
 For example
