@@ -1,6 +1,6 @@
 # android-jxcore-server
 
-This is an example which uses [JXcore](http://jxcore.com/home/) to start an [Express](https://github.com/expressjs/express) server on your Android device's 8080 port.
+This is an example which uses [JXcore](http://jxcore.com/home/) to start an [Express](https://github.com/expressjs/express) server on your Android device's 8122 port. This server redirect all HTTP requests to www.google.com.
 
 # Usage
 
@@ -48,6 +48,6 @@ stop server
 $ sh stop-server.sh
 ```
 
-**Change server port**
+**Change server code**
 
-Simply edit server.js for anything you want.
+Simply edit server.js for your need.
